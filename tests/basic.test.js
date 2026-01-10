@@ -59,7 +59,7 @@ describe("condicionales en javascript", () => {
         let name = "Pepe";
         let result = "KO";
 
-        expect(name === "Pepe").toBeThruthy;
+        expect(name === "Pepe").toBeTruthy();
         expect(result).toBe("KO");
 
         // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/length
